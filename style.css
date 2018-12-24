@@ -1,0 +1,324 @@
+
+body{
+
+    font-family: iransansmd;
+}
+
+.row{
+    margin: 0 !important;
+}
+
+header{
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 0;
+}
+
+.menu{
+    width: 100%;
+    height: 70px;
+    background-image: none;
+    background-color: transparent !important;
+}
+
+.navbar-light .navbar-nav .nav-link{
+    color: white !important;
+    font-size: 0.6rem;
+}
+
+.navbar-light .navbar-nav .nav-link:hover{
+box-shadow: 0 2px 0 #e5b350;
+}
+
+.phone{
+    color: white;
+    font-size: 14px;
+}
+
+.phone i{
+    color: #e5b350;
+}
+
+.bg{
+    background-image: url("../img/head-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    height: 500px;
+}
+
+.menu .navbar-collapse{
+    border-bottom: 2px solid rgba(255, 255, 255, 0.36);
+}
+
+.worker{
+    background-color: #e5b350;
+    color: white;
+    height: 40px;
+    font-size: 14px;
+    width: 130px;
+    outline: none;
+}
+
+.worker:hover{
+    background-color: #d99301;
+}
+
+.reserve{
+    background-color: #3ea3b7;
+    color: white;
+    height: 40px;
+    font-size: 14px;
+    width: 130px;
+    outline: none;
+}
+
+.reserve:hover{
+    background-color: #0487b7;
+}
+
+.btn-pos{
+    position: relative;
+    top: 15%;
+}
+
+.box-pos{
+    margin-top: -60px;
+}
+
+.box{
+    width: 100%;
+    height: 150px;
+    background-color: white;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.16);
+    background-image: url("../img/form-bg.png");
+}
+
+.input-box{
+    width: 100%;
+    justify-content: center;
+    display: flex;
+}
+
+.input-pos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.input-box input{
+    width: 80%;
+    color: grey;
+    border: none;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.15);
+    outline: none;
+    font-size: 14px;
+    background-color: transparent;
+}
+
+.input-box i{
+    color: #e5b350;
+}
+
+.text-btn span{
+    font-size: 13px;
+}
+
+.here-text{
+    text-decoration: none;
+    color: lightgray;
+}
+
+.search-hotel{
+    font-size: 14px;
+    color:#3ea3b7;
+    background-color: white;
+    border: 1.5px solid #3ea3b7;
+    outline: none;
+    border-radius: 30px;
+}
+
+.search-hotel:hover{
+    color:white;
+    background-color: #3ea3b7;
+}
+
+.form-btn{
+    text-align: center;
+}
+
+.form-btn i{
+    color: #e5b350;
+}
+
+.bg1{
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 220px;
+    background-image: url("../img/banner1.jpg");
+    background-size: cover;
+}
+.bg2{
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 220px;
+    background-image: url("../img/banner2.jpg");
+    background-size: cover;
+}
+.bg3{
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 220px;
+    background-image: url("../img/banner3.jpg");
+    background-size: cover;
+}
+
+.border-box{
+    position: absolute;
+    width: 92%;
+    height: 92%;
+    top: 4%;
+    right: 4%;
+    box-shadow: 0 0 3px #e5b350;
+}
+
+.blue-box{
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    background-color: rgba(62, 163, 183, 0.54);
+    transition-property: width;
+    transition-duration: 300ms;
+    transition-timing-function: ease-in;
+}
+
+.blue-box:hover{
+width: 100%;
+}
+
+.info{
+    color: white;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    font-size: 0.8rem;
+    top: 45%;
+    transition-property: width;
+    transition-duration: 300ms;
+    transition-timing-function: ease-in;
+}
+
+
+
+.title{
+  font-size: 1rem;;
+}
+
+.box-text{
+    color: black;
+    text-decoration: none !important;
+    display: block;
+    width: 100%;
+    height: 270px;
+    background-color: white;
+    box-shadow:  0 1px 7px rgba(128, 128, 128, 0.43);
+}
+.box-text:hover{
+    text-decoration: none !important;
+    color: black;
+    box-shadow:  0 1px 27px rgba(128, 128, 128, 0.43);
+
+
+}
+
+.bg4{
+    background-image: url("../img/news.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 60%;
+    width: 100%;
+}
+
+.bg5{
+    background-image: url("../img/Tours.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 60%;
+    width: 100%;
+}
+.bg6{
+    background-image: url("../img/offer1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 60%;
+    width: 100%;
+}
+
+.box-text i{
+    color:#e5b350 ;
+}
+
+.box-text h5{
+    font-size: 1rem;;
+}
+.box-text span{
+    color: gray;
+    font-size: 0.7rem;
+}
+
+
+
+
+@media only screen and (max-width: 1024px){
+
+    .btn-pos{
+    top: 90%;
+}
+
+    .navbar-toggler{
+        background-color: rgba(255, 255, 255, 0.3);
+        width: 100%;
+    }
+
+    .menu .navbar-collapse{
+        text-align: right;
+        background-color: #ffffff21;
+        padding-right: 20px;
+    }
+
+    .btn-location{
+        justify-content: space-around;
+        display: flex;
+    }
+
+    .logo-pos{
+        display: flex;
+    }
+
+    .logo{
+        width:70px;
+        height: 30px;
+    }
+    .box-pos{
+    margin-top: 20px;
+}
+
+    .box-space{
+        margin-bottom: 15px;
+    }
+
+    .box{
+        height: auto;
+    }
+
+    .input-pos{
+        height: 90px;
+    }
+}
